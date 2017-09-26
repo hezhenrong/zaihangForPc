@@ -142,8 +142,12 @@ return [
 
     // 视图输出字符串内容替换
     'view_replace_str'       => [
+<<<<<<< HEAD
 //      '__STATIC_PATH__' => '/group/04/public'//桂虎
 		'__STATIC_PATH__' =>'/git_zaihang/3/zaihangForPc/public'//臻荣
+=======
+      '__STATIC_PATH__' => '/group/04/public/'
+>>>>>>> 9e00a13cf3515a63a8d5807e3e95900cc03c4732
     ],
     // 默认跳转页面对应的模板文件
     'dispatch_success_tmpl'  => THINK_PATH . 'tpl' . DS . 'dispatch_jump.tpl',
